@@ -1,6 +1,7 @@
 import { Component } from "react";
 import Link from "next/link";
 import Header from "../components/header";
+import Image from '../static/images/test.jpg';
 
 class AboutPage extends Component {
   static getInitialProps() {
@@ -23,6 +24,9 @@ class AboutPage extends Component {
           <Link href="/">
             <a>Go to Home</a>
           </Link>
+        </section>
+        <section>
+          <img src={Image} width="100%"/>
         </section>
       </main>
     );

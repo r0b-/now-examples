@@ -9,5 +9,8 @@ export default () => (
         <a>Go to About Me</a>
       </Link>
     </section>
+    <section>
+      <img src={require('../static/images/test.jpg')} width="100%"/>
+    </section>
   </main>
 );
