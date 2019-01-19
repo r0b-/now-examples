@@ -10,7 +10,7 @@ export default () => (
       </Link>
     </section>
     <section>
-      <img src={require('../static/images/test.jpg')} width="100%"/>
+      <img src={require('./images/test.jpg')} width="100%"/>
     </section>
   </main>
 );

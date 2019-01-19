@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Link from "next/link";
 import Header from "../components/header";
-import Image from '../static/images/test.jpg';
+import Image from './images/test.jpg';
 
 class AboutPage extends Component {
   static getInitialProps() {
